@@ -1,0 +1,92 @@
+.dark .modal-content {
+    background-color: #222738 !important;
+    color: #e4e6eb !important;
+}
+
+.dark .modal-header {
+    border-bottom: 1px solid #2c3142 !important;
+}
+
+.dark .modal-footer {
+    border-top: 1px solid #2c3142 !important;
+}
+
+.dark .form-control,
+.dark .form-control:focus,
+.dark .form-control::placeholder,
+.dark .form-control:focus::placeholder,
+.dark .form-control:valid,
+.dark .form-control:invalid,
+.dark .form-control.is-valid,
+.dark .form-control.is-invalid,
+.dark .form-control.is-valid:focus,
+.dark .form-control.is-invalid:focus {
+    background-color: #2c3142 !important;
+    border-color: #3a4054 !important;
+    color: #e4e6eb !important;
+}
+
+.dark .form-control:focus {
+    border-color: #4a5268 !important;
+    box-shadow: 0 0 0 0.25rem rgba(67, 94, 215, 0.25) !important;
+}
+
+.dark .form-label {
+    color: #b0b3b8 !important;
+}
+
+.dark .form-check-input:checked {
+    background-color: #435ed7 !important;
+    border-color: #435ed7 !important;
+}
+
+.dark .form-check-input {
+    background-color: #3a4054 !important;
+    border-color: #4a5268 !important;
+}
+
+.dark .form-check-label {
+    color: #e4e6eb !important;
+}
+
+.dark .btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+.dark .bg-gray {
+    background-color: #2c3142 !important;
+}
+
+.dark .bg-light {
+    background-color: #3a4054 !important;
+}
+
+.dark .border-white {
+    border-color: #3a4054 !important;
+}
+
+.dark .text-secondary {
+    color: #b0b3b8 !important;
+}
+
+.dark .text-white {
+    color: #e4e6eb !important;
+}
+
+.dark input:-webkit-autofill,
+.dark input:-webkit-autofill:hover,
+.dark input:-webkit-autofill:focus,
+.dark textarea:-webkit-autofill,
+.dark textarea:-webkit-autofill:hover,
+.dark textarea:-webkit-autofill:focus,
+.dark select:-webkit-autofill,
+.dark select:-webkit-autofill:hover,
+.dark select:-webkit-autofill:focus {
+    -webkit-text-fill-color: #e4e6eb !important;
+    -webkit-box-shadow: 0 0 0 30px #2c3142 inset !important;
+    box-shadow: 0 0 0 30px #2c3142 inset !important;
+    background-color: #2c3142 !important;
+    border-color: #3a4054 !important;
+    transition: background-color 5000s ease-in-out 0s !important;
+}
+
