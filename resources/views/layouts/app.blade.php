@@ -7,7 +7,9 @@
     <title>SmartEats POS</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ asset('hopeui/assets/images/favicon.ico') }}" />
+    {{-- <link rel="shortcut icon" href="{{ asset('hopeui/assets/images/favicon.ico') }}" /> --}}
+    <link rel="icon" type="image/png" href="{{ asset('images/auth/logo.png') }}">
+
 
     <!-- Library / Plugin Css Build -->
     <link rel="stylesheet" href="{{ asset('hopeui/assets/css/core/libs.min.css') }}" />
